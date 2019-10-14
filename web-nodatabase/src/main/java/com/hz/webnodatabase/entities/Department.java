@@ -5,13 +5,13 @@ import lombok.Data;
 @Data
 public class Department {
     private Integer id;
-    private String dapartmentName;
+    private String departmentName;
 
     public Department() {
     }
 
     public Department(Integer id, String dapartmentName) {
         this.id = id;
-        this.dapartmentName = dapartmentName;
+        this.departmentName = dapartmentName;
     }
 }
